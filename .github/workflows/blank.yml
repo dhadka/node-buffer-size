@@ -29,5 +29,5 @@ jobs:
       - name: Display buffer size
         run: |
           echo "buffer.constants.MAX_LENGTH" > script.js
-          node12 script.js
+          node script.js
           node16 script.js
